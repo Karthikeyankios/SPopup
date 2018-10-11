@@ -77,7 +77,7 @@ completion:^(BOOL finished){
     Orderlbl.backgroundColor=[UIColor blackColor];
     Orderlbl.textColor=[UIColor whiteColor];
     Orderlbl.font=[UIFont fontWithName:@"Helvetica" size:16];
-    Orderlbl.text=TitileStr;
+    Orderlbl.text=[NSString stringWithFormat:@"  %@",TitileStr];
     [AlertPopUpView addSubview:Orderlbl];
     
     
